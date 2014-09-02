@@ -2,3 +2,41 @@ edf-premit
 ==========
 
 edf-earliest deadline first premitive: i have implemented with my own concept of simulation threads and making them wait on the execution time
+
+
+ 			                    created in Ubuntu 12.04 with python 2.7
+
+RUNNING:
+
+1. RUN THE edf.py file
+2. give inputs such as: process name
+			computation time
+			deadline
+
+3.give submit
+
+4.give various deadlines to check the preemit
+
+5.Once you give inputs you can see them running on the terminal.and context switiching if needed
+
+6.now you can get outputs
+
+OUTPUTS:
+1)RUNTIME:
+just open the output.html file in the current directory which will give the running process graph
+
+2)GANTT CHART:
+click the "Give output button in the window to reaveal the gantt chart for each second
+
+3)PRESENTATION:
+click generate output to get the processor usage , average waiting time, average turn around time graphs.
+
+then open the index.html inside the impress.js-master directory.
+
+edit the presentation as needed.(ready with your edf-preemitive)
+
+NOTE:
+*the execution function is considered as the processor, the timer variable is calculated as the clock,
+
+*a module to determine your own clock time is also given but i have not used the function if you want you can just disable the comment, so that you can slow down the total process.
+
